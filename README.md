@@ -1,33 +1,22 @@
-# Python packaging tutorial with an over-simplified downloader
+# Integração Python com FrotaSaaS Guberman
 
-This is an over-simplified downloader package just to
-demonstrate python packaging.
-
-It contains a python module to import and a CLI tool.
+Script para facilitar processo de integração e envio de arquivos para integração com Guberman FrotaSaaS
 
 ## Installation
 
-You can easily install the module using `pip`.
+Instale a versão mais recente do Python em seu computador.  Download [https://www.python.org/downloads/]
 
-## Using the Python module
+## Depois de Instalado o Python, instale o modulo frotaintegra
 
-Once installed, in your python script:
+
 
 ```
-from downloader import download
-
-# suppose "url" variable points to a resource to be downloaded.
-# "dest_path" variable points to a local path where the resource
-# is to be stored.
-
-print(f"Downloading {url} to {dest_path}...")
-file_size = downloader(url, dest_path)
-print(f"Download successful! File size: {file_size} B")
+pip3 install frotaintegra
 
 ```
 
-## Using the CLI command
+## Utilize o comando CLI no prompt/terminal
 
 ```
-$ download <url> -o <dest_path>
+$ frotaintegra
 ```
