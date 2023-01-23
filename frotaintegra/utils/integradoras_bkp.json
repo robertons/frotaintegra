@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "GoodCard",
+        "codigo": "14795",
+        "pasta": "goodcard"
+    },
+    {
+        "nome": "CTF",
+        "codigo": "14750",
+        "pasta": "ctf"
+    },
+    {
+        "nome": "Ticket",
+        "codigo": "14740",
+        "pasta": "ticket"
+    },
+    {
+        "nome": "ComVoc\u00ea",
+        "codigo": "14781",
+        "pasta": "comvoce"
+    }
+]
